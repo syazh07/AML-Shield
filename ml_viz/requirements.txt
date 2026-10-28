@@ -1,0 +1,5 @@
+# The visualizer itself only needs a web server. Everything it reads (pandas,
+# sklearn) and everything the stages need (shap, xgboost, networkx, matplotlib)
+# already lives in the repo-root .venv — see ml_pipeline/requirements.txt.
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0

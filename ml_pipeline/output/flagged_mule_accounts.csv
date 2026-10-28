@@ -1,0 +1,20 @@
+Account,ACID,Risk_Score,Is_Flagged,Top_Reasons,Rule_Score,Anomaly_Score,Top_Anomaly_Feature
+3ee08f,3ee08f9be084416e63a62ab68ddf4205885d8d838b12dc29ceaafaed95db1e89,80.8,True,Pass-through (money in ~ money out) [standalone 75/100]; Structuring near Rs 50k CTR line [standalone 35/100],83.9,75.0,micro_credit_share
+52b015,52b0155b4602c757c466a087571e2e0389801e04c8628f512b8ac92baa925297,77.0,True,Pass-through (money in ~ money out) [standalone 73/100],73.6,83.3,micro_credit_share
+93d00f,93d00f5be5a46fa077c3b07c9c8f9943bdb80145a26898de2edf61c630345e4d,73.0,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,69.4,txn_per_100d
+37a7e9,37a7e9dc1e189f50110713467a08f2cfcb4751b11c794ceeffa7d87a20741814,72.1,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,66.7,micro_credit_share
+b8b3e9,b8b3e9f99fe9b06df960183437f9605e5f2c597c087d8ace6e147be330f6a3a9,70.0,True,Fan-in aggregation (collector account) [standalone 70/100]; Structuring near Rs 50k CTR line [standalone 35/100],80.7,50.0,lien_ratio
+e262bf,e262bf42162e0365df69e40eb5af26791f34e668f497492cb0ab5ea8424901ba,69.0,True,Pass-through (money in ~ money out) [standalone 75/100],74.7,58.3,lien_ratio
+2ed098,2ed098c444ef2a6515b1d079276a1776e207e8ab5509d90b09789fe7d3caf3f3,67.0,True,Pass-through (money in ~ money out) [standalone 75/100]; Fan-in aggregation (collector account) [standalone 10/100],77.6,47.2,txn_per_100d
+996f3b,996f3bf5a08b32b760dcb4b419ad9a28fa4272ad8279d0e2f987b1c12c76b11e,66.1,True,Pass-through (money in ~ money out) [standalone 75/100],76.2,47.2,credit_to_debit_ratio
+4ac3eb,4ac3ebe74c65e3846aafaaf69e0911ceb9421dbe6c8dcf478a6ee53363c888b8,65.3,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,47.2,micro_credit_share
+443512,4435127fe3b42fa247be821529321999f93841c95d90a48391bd5f22a265c39e,65.3,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,47.2,micro_credit_share
+3d5e6f,3d5e6fdd385c9705fbce45fc72b44e01a8db4d21b38b8a6709f8d1ea78ee1a66,64.3,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,44.4,micro_credit_share
+af385c,af385cff49486aa616c68cac3206474347504f82123d66adbcc77f8daf5888d0,63.3,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,41.7,amt_cv
+8e0694,8e06940aada5e54401c26e6b07275a8362cc2434baac46c870fd820b0e234c27,62.4,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,38.9,amt_cv
+902813,90281370e2018c403461f0d47a997ac75757bc08f992e768c124abe218e8bb5f,60.4,True,Pass-through (money in ~ money out) [standalone 75/100],75.0,33.3,micro_credit_share
+a367bf,a367bf021d540312df2fb9b79c804d30fb6e21f3cd5d6a3fe84d32f334fc87cf,58.8,False,Pass-through (money in ~ money out) [standalone 66/100],66.5,44.4,micro_credit_share
+30545a,30545a863ab5556e3557487ac0e1c7177415a1d9cd8669e1d0b7c1d85209ae1e,58.4,False,Pass-through (money in ~ money out) [standalone 59/100],64.4,47.2,n_txn
+7ee289,7ee289b087bb40df4f9e09cd498402ed31e4b68ec7dbf128a8e97c2e31e29bb3,56.5,False,Pass-through (money in ~ money out) [standalone 75/100],75.0,22.2,micro_credit_share
+19f6de,19f6de026060e675cb8ba93c089fb0c7678d667373e5760b4581df31db15682b,52.8,False,Pass-through (money in ~ money out) [standalone 59/100],58.8,41.7,micro_credit_share
+e17599,e17599ec6b51a87a6b4870144108cca151a3887cbf0cf1af6288192f700f1366,38.8,False,Pass-through (money in ~ money out) [standalone 36/100],35.8,44.4,passthrough_ratio

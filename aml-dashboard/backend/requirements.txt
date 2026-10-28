@@ -1,0 +1,12 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+openai>=1.57.0
+python-dotenv>=1.0.1
+httpx>=0.28.0
+eval_type_backport>=0.2.0  # lets PEP 604 (X | Y) type unions run on Python 3.9/3.10
+# real ML scoring (plugged in from ../../ml_pipeline)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3

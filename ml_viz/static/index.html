@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AML Shield — ML Pipeline, live</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🔬</text></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <b>AML Shield</b>
+      <span>ML pipeline · live</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="seg" id="view" role="group" aria-label="Which datasets to show">
+      <button class="seg-btn is-on" data-view="both">Both</button>
+      <button class="seg-btn" data-view="real">Real</button>
+      <button class="seg-btn" data-view="synthetic">Synthetic</button>
+    </div>
+    <div class="preflight" id="preflight" title="Environment check">
+      <span class="dot"></span><span id="preflight-text">checking…</span>
+    </div>
+    <button class="btn" id="theme">Light</button>
+    <button class="btn" id="reset">New run</button>
+  </header>
+
+  <nav class="rail" id="rail" aria-label="Pipeline stages"></nav>
+
+  <section class="stage-head">
+    <h1 id="stage-title">—</h1>
+    <p id="stage-sub"></p>
+    <code id="stage-script"></code>
+  </section>
+
+  <main class="cols" id="cols">
+    <section class="col" data-source="real">
+      <div class="col-head">
+        <span class="col-name">Real</span>
+        <span class="tier">TIER A</span>
+        <span class="col-dataset" id="ds-real"></span>
+        <span class="col-timing" id="t-real"></span>
+      </div>
+      <div class="col-body" id="body-real"></div>
+    </section>
+    <section class="col" data-source="synthetic">
+      <div class="col-head">
+        <span class="col-name">Synthetic</span>
+        <span class="tier">TIER B</span>
+        <span class="col-dataset" id="ds-synthetic"></span>
+        <span class="col-timing" id="t-synthetic"></span>
+      </div>
+      <div class="col-body" id="body-synthetic"></div>
+    </section>
+  </main>
+
+  <div class="runlog" id="runlog"><div class="runlog-inner" id="runlog-inner"></div></div>
+
+  <footer class="bar">
+    <button class="primary" id="advance">Run stage 00 · Quality gate</button>
+    <button class="btn" id="runall">Run all remaining</button>
+    <span class="elapsed" id="elapsed"></span>
+    <div class="spacer"></div>
+    <button class="btn" id="logtoggle">Show log</button>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+feature,mean_abs_shap
+micro_credit_share,0.0228
+credit_to_debit_ratio,0.0193
+lien_ratio,0.0158
+txn_per_100d,0.0157
+n_structuring,0.0155
+n_txn,0.0152
+passthrough_ratio,0.0139
+amt_cv,0.0106
